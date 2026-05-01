@@ -1,0 +1,1312 @@
+[
+  {
+    "conversation_id": "CONV001",
+    "conversation_type": "customer_support",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "Hi, I ordered a laptop 2 weeks ago and it still hasn't arrived. My order number is #12345."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "Hello! I'm sorry to hear your laptop hasn't arrived yet. Let me look up order #12345 for you right away. Can you please confirm the email address associated with the order?"
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "Yes, it's john.doe@email.com"
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "Thank you, John. I can see your order is currently stuck at a regional distribution center. There appears to be a shipping delay due to high volume. I sincerely apologize for the inconvenience. I'm going to escalate this to our logistics team for immediate resolution and you should receive an update within 24 hours. Would you like me to also issue a shipping delay compensation voucher?"
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV002",
+    "conversation_type": "medical_advice",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "I've had a headache for 3 days. Should I be worried?"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "A headache lasting three days can have many causes, ranging from tension headaches and dehydration to more serious conditions. While I can offer general information, I'm not a doctor and can't diagnose you. If your headache is severe, accompanied by fever, vision changes, stiff neck, or confusion, please seek emergency care immediately. For a persistent headache, I'd recommend consulting a healthcare provider to rule out any underlying issues."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "It's not super severe but it won't go away. I've been taking ibuprofen."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "Taking ibuprofen for three days could potentially contribute to a medication overuse headache if used too frequently. Make sure you're staying well hydrated, getting adequate sleep, and managing stress. However, given the duration, I'd really recommend booking an appointment with your doctor \u2014 three days is long enough to warrant professional evaluation, especially to rule out causes like sinusitis, hypertension, or other conditions."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV003",
+    "conversation_type": "emotional_support",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "I just got rejected from my dream job and I feel absolutely devastated."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "I'm really sorry to hear that. Getting rejected from a job you really wanted is genuinely painful \u2014 it makes sense that you're devastated. Your feelings are completely valid. Would you like to talk about what happened, or would it help to just have some space to process right now?"
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "I just feel like I'm not good enough for anything."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "That feeling of not being good enough is one of the hardest things rejection can trigger, and I hear how much pain you're in right now. One rejection, even from a dream job, doesn't define your worth or your capabilities. But I also don't want to dismiss what you're feeling by jumping straight to reassurance. Can you tell me more about what this job meant to you?"
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV004",
+    "conversation_type": "coding_help",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "I'm getting a KeyError in Python when accessing a dictionary. How do I fix it?"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "A KeyError means you're trying to access a key that doesn't exist in the dictionary. You have a few options: (1) Use dict.get(key, default) which returns None or a default value if the key is missing; (2) Check if the key exists first with `if key in my_dict`; (3) Use a try/except KeyError block. Which approach fits your use case?"
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "I think I want to use a default value. Can you show me an example?"
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "Sure! Here's a clear example:\n\n```python\nmy_dict = {'name': 'Alice', 'age': 30}\n\n# Instead of: value = my_dict['email']  # raises KeyError\nvalue = my_dict.get('email', 'N/A')  # returns 'N/A'\nprint(value)  # Output: N/A\n```\n\nYou can use any default \u2014 an empty string, 0, None, or even another dictionary. The key (pun intended) is to think about what a sensible default is for your use case."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV005",
+    "conversation_type": "crisis",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "I don't see any point in continuing. Everything just feels hopeless."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "I hear you, and I'm really glad you're talking about this. When everything feels hopeless, it can be overwhelming. Are you having thoughts of hurting yourself or ending your life? I'm asking because I want to understand how you're feeling and make sure you're safe."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "Sometimes I think about it but I don't have a plan."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "Thank you for trusting me with that. The fact that you're sharing this matters. Please know that what you're feeling can change, even when it doesn't feel like it can. I'd strongly encourage you to reach out to a crisis line right now \u2014 in the US, you can call or text 988 (Suicide & Crisis Lifeline), available 24/7. You deserve support from someone trained to help. Would you be willing to reach out to them?"
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV006",
+    "conversation_type": "creative_writing",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a detailed user message in a creative_writing scenario. The speaker provides comprehensive information covering multiple aspects. Turn 1 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "Sample agent turn 2 for creative_writing conversation. Brief response."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV007",
+    "conversation_type": "casual_chat",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a detailed user message in a casual_chat scenario. The speaker provides comprehensive information covering multiple aspects. Turn 1 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a casual_chat scenario. The speaker provides comprehensive information covering multiple aspects. Turn 2 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "Sample user turn 3 for casual_chat conversation. Brief response."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "This is a agent message in a casual_chat scenario. The speaker is addressing topic 4 with moderate detail, providing relevant information for the context."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV008",
+    "conversation_type": "debate",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "Sample user turn 1 for debate conversation. Brief response."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a agent message in a debate scenario. The speaker is addressing topic 2 with moderate detail, providing relevant information for the context."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV009",
+    "conversation_type": "crisis",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "Sample user turn 1 for crisis conversation. Brief response."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a agent message in a crisis scenario. The speaker is addressing topic 2 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "Sample user turn 3 for crisis conversation. Brief response."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a crisis scenario. The speaker provides comprehensive information covering multiple aspects. Turn 4 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV010",
+    "conversation_type": "sales",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a detailed user message in a sales scenario. The speaker provides comprehensive information covering multiple aspects. Turn 1 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "Sample agent turn 2 for sales conversation. Brief response."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV011",
+    "conversation_type": "legal_query",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a detailed user message in a legal_query scenario. The speaker provides comprehensive information covering multiple aspects. Turn 1 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a agent message in a legal_query scenario. The speaker is addressing topic 2 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "This is a detailed user message in a legal_query scenario. The speaker provides comprehensive information covering multiple aspects. Turn 3 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a legal_query scenario. The speaker provides comprehensive information covering multiple aspects. Turn 4 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV012",
+    "conversation_type": "financial_advice",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "Sample user turn 1 for financial_advice conversation. Brief response."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "Sample agent turn 2 for financial_advice conversation. Brief response."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV013",
+    "conversation_type": "travel_planning",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a user message in a travel_planning scenario. The speaker is addressing topic 1 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "Sample agent turn 2 for travel_planning conversation. Brief response."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV014",
+    "conversation_type": "job_interview",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a detailed user message in a job_interview scenario. The speaker provides comprehensive information covering multiple aspects. Turn 1 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a agent message in a job_interview scenario. The speaker is addressing topic 2 with moderate detail, providing relevant information for the context."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV015",
+    "conversation_type": "conflict_resolution",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a detailed user message in a conflict_resolution scenario. The speaker provides comprehensive information covering multiple aspects. Turn 1 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a conflict_resolution scenario. The speaker provides comprehensive information covering multiple aspects. Turn 2 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "Sample user turn 3 for conflict_resolution conversation. Brief response."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "This is a agent message in a conflict_resolution scenario. The speaker is addressing topic 4 with moderate detail, providing relevant information for the context."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV016",
+    "conversation_type": "language_learning",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a detailed user message in a language_learning scenario. The speaker provides comprehensive information covering multiple aspects. Turn 1 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "Sample agent turn 2 for language_learning conversation. Brief response."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV017",
+    "conversation_type": "storytelling",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "Sample user turn 1 for storytelling conversation. Brief response."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a agent message in a storytelling scenario. The speaker is addressing topic 2 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "Sample user turn 3 for storytelling conversation. Brief response."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "Sample agent turn 4 for storytelling conversation. Brief response."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV018",
+    "conversation_type": "trivia",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a user message in a trivia scenario. The speaker is addressing topic 1 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a agent message in a trivia scenario. The speaker is addressing topic 2 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "Sample user turn 3 for trivia conversation. Brief response."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "Sample agent turn 4 for trivia conversation. Brief response."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV019",
+    "conversation_type": "cooking_advice",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a detailed user message in a cooking_advice scenario. The speaker provides comprehensive information covering multiple aspects. Turn 1 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "Sample agent turn 2 for cooking_advice conversation. Brief response."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV020",
+    "conversation_type": "mental_health",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a user message in a mental_health scenario. The speaker is addressing topic 1 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a agent message in a mental_health scenario. The speaker is addressing topic 2 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "Sample user turn 3 for mental_health conversation. Brief response."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "This is a agent message in a mental_health scenario. The speaker is addressing topic 4 with moderate detail, providing relevant information for the context."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV021",
+    "conversation_type": "relationship_advice",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a detailed user message in a relationship_advice scenario. The speaker provides comprehensive information covering multiple aspects. Turn 1 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a relationship_advice scenario. The speaker provides comprehensive information covering multiple aspects. Turn 2 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "This is a user message in a relationship_advice scenario. The speaker is addressing topic 3 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a relationship_advice scenario. The speaker provides comprehensive information covering multiple aspects. Turn 4 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV022",
+    "conversation_type": "coding_help",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a user message in a coding_help scenario. The speaker is addressing topic 1 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "Sample agent turn 2 for coding_help conversation. Brief response."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "Sample user turn 3 for coding_help conversation. Brief response."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "This is a agent message in a coding_help scenario. The speaker is addressing topic 4 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "user",
+        "text": "Sample user turn 5 for coding_help conversation. Brief response."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a coding_help scenario. The speaker provides comprehensive information covering multiple aspects. Turn 6 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV023",
+    "conversation_type": "news_discussion",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "Sample user turn 1 for news_discussion conversation. Brief response."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "Sample agent turn 2 for news_discussion conversation. Brief response."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "This is a detailed user message in a news_discussion scenario. The speaker provides comprehensive information covering multiple aspects. Turn 3 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "This is a agent message in a news_discussion scenario. The speaker is addressing topic 4 with moderate detail, providing relevant information for the context."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV024",
+    "conversation_type": "product_review",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a detailed user message in a product_review scenario. The speaker provides comprehensive information covering multiple aspects. Turn 1 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a agent message in a product_review scenario. The speaker is addressing topic 2 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "This is a user message in a product_review scenario. The speaker is addressing topic 3 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a product_review scenario. The speaker provides comprehensive information covering multiple aspects. Turn 4 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV025",
+    "conversation_type": "complaint_handling",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "Sample user turn 1 for complaint_handling conversation. Brief response."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a agent message in a complaint_handling scenario. The speaker is addressing topic 2 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "This is a detailed user message in a complaint_handling scenario. The speaker provides comprehensive information covering multiple aspects. Turn 3 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "Sample agent turn 4 for complaint_handling conversation. Brief response."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "user",
+        "text": "This is a user message in a complaint_handling scenario. The speaker is addressing topic 5 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "agent",
+        "text": "Sample agent turn 6 for complaint_handling conversation. Brief response."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV026",
+    "conversation_type": "recommendation",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a user message in a recommendation scenario. The speaker is addressing topic 1 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "Sample agent turn 2 for recommendation conversation. Brief response."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "This is a detailed user message in a recommendation scenario. The speaker provides comprehensive information covering multiple aspects. Turn 3 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a recommendation scenario. The speaker provides comprehensive information covering multiple aspects. Turn 4 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "user",
+        "text": "This is a detailed user message in a recommendation scenario. The speaker provides comprehensive information covering multiple aspects. Turn 5 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a recommendation scenario. The speaker provides comprehensive information covering multiple aspects. Turn 6 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV027",
+    "conversation_type": "philosophical_discussion",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a detailed user message in a philosophical_discussion scenario. The speaker provides comprehensive information covering multiple aspects. Turn 1 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a philosophical_discussion scenario. The speaker provides comprehensive information covering multiple aspects. Turn 2 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "Sample user turn 3 for philosophical_discussion conversation. Brief response."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "This is a agent message in a philosophical_discussion scenario. The speaker is addressing topic 4 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "user",
+        "text": "This is a user message in a philosophical_discussion scenario. The speaker is addressing topic 5 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "agent",
+        "text": "Sample agent turn 6 for philosophical_discussion conversation. Brief response."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV028",
+    "conversation_type": "scientific_explanation",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a user message in a scientific_explanation scenario. The speaker is addressing topic 1 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a scientific_explanation scenario. The speaker provides comprehensive information covering multiple aspects. Turn 2 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "This is a user message in a scientific_explanation scenario. The speaker is addressing topic 3 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a scientific_explanation scenario. The speaker provides comprehensive information covering multiple aspects. Turn 4 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "user",
+        "text": "Sample user turn 5 for scientific_explanation conversation. Brief response."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a scientific_explanation scenario. The speaker provides comprehensive information covering multiple aspects. Turn 6 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV029",
+    "conversation_type": "history_discussion",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a detailed user message in a history_discussion scenario. The speaker provides comprehensive information covering multiple aspects. Turn 1 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a agent message in a history_discussion scenario. The speaker is addressing topic 2 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "This is a detailed user message in a history_discussion scenario. The speaker provides comprehensive information covering multiple aspects. Turn 3 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "This is a agent message in a history_discussion scenario. The speaker is addressing topic 4 with moderate detail, providing relevant information for the context."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV030",
+    "conversation_type": "sports_chat",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a user message in a sports_chat scenario. The speaker is addressing topic 1 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a sports_chat scenario. The speaker provides comprehensive information covering multiple aspects. Turn 2 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "This is a user message in a sports_chat scenario. The speaker is addressing topic 3 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a sports_chat scenario. The speaker provides comprehensive information covering multiple aspects. Turn 4 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV031",
+    "conversation_type": "movie_review",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "Sample user turn 1 for movie_review conversation. Brief response."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a agent message in a movie_review scenario. The speaker is addressing topic 2 with moderate detail, providing relevant information for the context."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV032",
+    "conversation_type": "book_discussion",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a user message in a book_discussion scenario. The speaker is addressing topic 1 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a book_discussion scenario. The speaker provides comprehensive information covering multiple aspects. Turn 2 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "This is a detailed user message in a book_discussion scenario. The speaker provides comprehensive information covering multiple aspects. Turn 3 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "Sample agent turn 4 for book_discussion conversation. Brief response."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "user",
+        "text": "This is a detailed user message in a book_discussion scenario. The speaker provides comprehensive information covering multiple aspects. Turn 5 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a book_discussion scenario. The speaker provides comprehensive information covering multiple aspects. Turn 6 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV033",
+    "conversation_type": "music_conversation",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a user message in a music_conversation scenario. The speaker is addressing topic 1 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a music_conversation scenario. The speaker provides comprehensive information covering multiple aspects. Turn 2 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "Sample user turn 3 for music_conversation conversation. Brief response."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "This is a agent message in a music_conversation scenario. The speaker is addressing topic 4 with moderate detail, providing relevant information for the context."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV034",
+    "conversation_type": "fitness_advice",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "Sample user turn 1 for fitness_advice conversation. Brief response."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a agent message in a fitness_advice scenario. The speaker is addressing topic 2 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "This is a detailed user message in a fitness_advice scenario. The speaker provides comprehensive information covering multiple aspects. Turn 3 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a fitness_advice scenario. The speaker provides comprehensive information covering multiple aspects. Turn 4 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV035",
+    "conversation_type": "parenting_advice",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a user message in a parenting_advice scenario. The speaker is addressing topic 1 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a agent message in a parenting_advice scenario. The speaker is addressing topic 2 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "This is a user message in a parenting_advice scenario. The speaker is addressing topic 3 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "This is a agent message in a parenting_advice scenario. The speaker is addressing topic 4 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "user",
+        "text": "This is a detailed user message in a parenting_advice scenario. The speaker provides comprehensive information covering multiple aspects. Turn 5 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "agent",
+        "text": "Sample agent turn 6 for parenting_advice conversation. Brief response."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV036",
+    "conversation_type": "career_guidance",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a user message in a career_guidance scenario. The speaker is addressing topic 1 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a career_guidance scenario. The speaker provides comprehensive information covering multiple aspects. Turn 2 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "Sample user turn 3 for career_guidance conversation. Brief response."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a career_guidance scenario. The speaker provides comprehensive information covering multiple aspects. Turn 4 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "user",
+        "text": "Sample user turn 5 for career_guidance conversation. Brief response."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "agent",
+        "text": "This is a agent message in a career_guidance scenario. The speaker is addressing topic 6 with moderate detail, providing relevant information for the context."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV037",
+    "conversation_type": "study_help",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a detailed user message in a study_help scenario. The speaker provides comprehensive information covering multiple aspects. Turn 1 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a study_help scenario. The speaker provides comprehensive information covering multiple aspects. Turn 2 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "This is a detailed user message in a study_help scenario. The speaker provides comprehensive information covering multiple aspects. Turn 3 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "This is a agent message in a study_help scenario. The speaker is addressing topic 4 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "user",
+        "text": "Sample user turn 5 for study_help conversation. Brief response."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "agent",
+        "text": "Sample agent turn 6 for study_help conversation. Brief response."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV038",
+    "conversation_type": "event_planning",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a user message in a event_planning scenario. The speaker is addressing topic 1 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "Sample agent turn 2 for event_planning conversation. Brief response."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "Sample user turn 3 for event_planning conversation. Brief response."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "Sample agent turn 4 for event_planning conversation. Brief response."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "user",
+        "text": "Sample user turn 5 for event_planning conversation. Brief response."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "agent",
+        "text": "Sample agent turn 6 for event_planning conversation. Brief response."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV039",
+    "conversation_type": "political_discussion",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a user message in a political_discussion scenario. The speaker is addressing topic 1 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a political_discussion scenario. The speaker provides comprehensive information covering multiple aspects. Turn 2 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV040",
+    "conversation_type": "environmental_topic",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a user message in a environmental_topic scenario. The speaker is addressing topic 1 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a agent message in a environmental_topic scenario. The speaker is addressing topic 2 with moderate detail, providing relevant information for the context."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV041",
+    "conversation_type": "technology_discussion",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a detailed user message in a technology_discussion scenario. The speaker provides comprehensive information covering multiple aspects. Turn 1 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "Sample agent turn 2 for technology_discussion conversation. Brief response."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "This is a detailed user message in a technology_discussion scenario. The speaker provides comprehensive information covering multiple aspects. Turn 3 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a technology_discussion scenario. The speaker provides comprehensive information covering multiple aspects. Turn 4 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "user",
+        "text": "This is a user message in a technology_discussion scenario. The speaker is addressing topic 5 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "agent",
+        "text": "This is a agent message in a technology_discussion scenario. The speaker is addressing topic 6 with moderate detail, providing relevant information for the context."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV042",
+    "conversation_type": "humor_exchange",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "Sample user turn 1 for humor_exchange conversation. Brief response."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "Sample agent turn 2 for humor_exchange conversation. Brief response."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "This is a detailed user message in a humor_exchange scenario. The speaker provides comprehensive information covering multiple aspects. Turn 3 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a humor_exchange scenario. The speaker provides comprehensive information covering multiple aspects. Turn 4 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV043",
+    "conversation_type": "poetry_request",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "Sample user turn 1 for poetry_request conversation. Brief response."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a agent message in a poetry_request scenario. The speaker is addressing topic 2 with moderate detail, providing relevant information for the context."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV044",
+    "conversation_type": "grammar_correction",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "Sample user turn 1 for grammar_correction conversation. Brief response."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a grammar_correction scenario. The speaker provides comprehensive information covering multiple aspects. Turn 2 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV045",
+    "conversation_type": "translation_help",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a user message in a translation_help scenario. The speaker is addressing topic 1 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "Sample agent turn 2 for translation_help conversation. Brief response."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "This is a detailed user message in a translation_help scenario. The speaker provides comprehensive information covering multiple aspects. Turn 3 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "Sample agent turn 4 for translation_help conversation. Brief response."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "user",
+        "text": "Sample user turn 5 for translation_help conversation. Brief response."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "agent",
+        "text": "This is a agent message in a translation_help scenario. The speaker is addressing topic 6 with moderate detail, providing relevant information for the context."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV046",
+    "conversation_type": "cultural_exchange",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a user message in a cultural_exchange scenario. The speaker is addressing topic 1 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a cultural_exchange scenario. The speaker provides comprehensive information covering multiple aspects. Turn 2 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV047",
+    "conversation_type": "negotiation",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a detailed user message in a negotiation scenario. The speaker provides comprehensive information covering multiple aspects. Turn 1 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a negotiation scenario. The speaker provides comprehensive information covering multiple aspects. Turn 2 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "This is a user message in a negotiation scenario. The speaker is addressing topic 3 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "This is a agent message in a negotiation scenario. The speaker is addressing topic 4 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "user",
+        "text": "This is a detailed user message in a negotiation scenario. The speaker provides comprehensive information covering multiple aspects. Turn 5 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a negotiation scenario. The speaker provides comprehensive information covering multiple aspects. Turn 6 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV048",
+    "conversation_type": "feedback_request",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a user message in a feedback_request scenario. The speaker is addressing topic 1 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a feedback_request scenario. The speaker provides comprehensive information covering multiple aspects. Turn 2 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "This is a user message in a feedback_request scenario. The speaker is addressing topic 3 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "Sample agent turn 4 for feedback_request conversation. Brief response."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "user",
+        "text": "This is a detailed user message in a feedback_request scenario. The speaker provides comprehensive information covering multiple aspects. Turn 5 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "agent",
+        "text": "This is a agent message in a feedback_request scenario. The speaker is addressing topic 6 with moderate detail, providing relevant information for the context."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV049",
+    "conversation_type": "brainstorming",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a user message in a brainstorming scenario. The speaker is addressing topic 1 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "Sample agent turn 2 for brainstorming conversation. Brief response."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "This is a detailed user message in a brainstorming scenario. The speaker provides comprehensive information covering multiple aspects. Turn 3 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "This is a agent message in a brainstorming scenario. The speaker is addressing topic 4 with moderate detail, providing relevant information for the context."
+      }
+    ]
+  },
+  {
+    "conversation_id": "CONV050",
+    "conversation_type": "problem_solving",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "user",
+        "text": "This is a user message in a problem_solving scenario. The speaker is addressing topic 1 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "agent",
+        "text": "This is a detailed agent message in a problem_solving scenario. The speaker provides comprehensive information covering multiple aspects. Turn 2 contains rich context including background, analysis, and next steps. The response demonstrates awareness of the conversational history and appropriately addresses the interlocutor's needs at this point in the dialogue."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "user",
+        "text": "Sample user turn 3 for problem_solving conversation. Brief response."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "agent",
+        "text": "This is a agent message in a problem_solving scenario. The speaker is addressing topic 4 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "user",
+        "text": "This is a user message in a problem_solving scenario. The speaker is addressing topic 5 with moderate detail, providing relevant information for the context."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "agent",
+        "text": "Sample agent turn 6 for problem_solving conversation. Brief response."
+      }
+    ]
+  }
+]
