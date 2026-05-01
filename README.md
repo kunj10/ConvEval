@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-<a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3.13%2B-blue?logo=python&logoColor=white" alt="Python" /></a>
+<a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3.11%2B-blue?logo=python&logoColor=white" alt="Python" /></a>
 <a href="https://react.dev/" target="_blank"><img src="https://img.shields.io/badge/Frontend-React%20%2B%20Vite-61DAFB?logo=react&logoColor=black" alt="React" /></a>
 <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/Backend-FastAPI-009688?logo=fastapi&logoColor=white" alt="FastAPI" /></a>
 <a href="https://huggingface.co/" target="_blank"><img src="https://img.shields.io/badge/AI-Transformers-FFD21E?logo=huggingface&logoColor=black" alt="HuggingFace" /></a>
@@ -55,7 +55,7 @@ We built **ConvEval** because evaluation should be strict, scalable, and run ent
 Get your evaluation pipeline running in minutes.
 
 ### Prerequisites
-- Python 3.13+
+- Python 3.11+
 - Node.js (for frontend)
 - Docker (optional, but recommended)
 
