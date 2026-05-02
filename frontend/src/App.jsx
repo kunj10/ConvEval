@@ -52,16 +52,7 @@ export default function App() {
           ))}
         </nav>
 
-        <div>
-          <a 
-            href="http://localhost:8000/docs" 
-            target="_blank" 
-            rel="noreferrer" 
-            className="text-sm font-medium text-text-muted hover:text-white transition-colors duration-300 flex items-center gap-2"
-          >
-            API Docs <span className="opacity-50">↗</span>
-          </a>
-        </div>
+        <div className="w-[104px]"></div>
       </header>
 
       <main className="relative z-10">
